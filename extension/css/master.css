@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  text-align: center; /* center aligns img and a elements */
+  width: 220px;
+}
+
+header {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  height: 40px;
+}
+
+.fas {
+  color: #6f7c91;
+  font-size: 14px;
+  top: 14px;
+  position: absolute;
+}
+
+.logo {
+  padding-top: 9px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.fa-ellipsis-v {
+  left: 15px;
+}
+
+.fa-cog {
+  right: 15px;
+}
+/* ---------------------------------------------------- */
+
+main {
+  background-color: #f9f9f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main a {
+  font-weight: 500;
+  background-color: white;
+  width: 75%;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.b-checkbox {
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+.enabled { background-color: #48db6a; }
+.disabled { background-color: #d6cfcf; }
+.b-checkbox span { font-weight: 100; }
+
+.b-check, .b-view {
+  color: #1ac3d7;
+  cursor: pointer;
+} /* changes color to blue */
+.b-check-after {
+  color: white;
+  background-color: #48db6a;
+  cursor: pointer;
+}
+
+.b-practice {
+  color: white;
+  background-color: #5edeed;
+  border: solid 1px #5edeed;
+}
+
+.refresh {
+  text-decoration: underline;
+}
+
+
+/* ---------------------------------------------------- */
+
+main a:before {
+  font-family: 'Font Awesome\ 5 Free';
+  margin-right: 8px;
+  font-weight: 900; /* includes icon is solid */
+  font-size: 12px;
+}
+
+.enabled:before {
+  content:'\f00c';  /* check icon */
+}
+
+.disabled:before {
+  content:'\f00d';  /* cross icon */
+}
+
+.b-check:before {
+  content:'\f550';
+}
+
+.b-view:before {
+  content:'\f35d';
+}

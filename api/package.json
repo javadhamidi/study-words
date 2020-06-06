@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "studywords_api",
+  "version": "0.0.2",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
+}

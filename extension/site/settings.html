@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Study Words</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="nav-bar">
+		<a href="">
+			<img class="logo" src="res/logo.png">
+		</a>
+		<nav>
+			<ul>
+				<li><a href="index.html"><i class="fas fa-home" style="padding-right: 10%;"></i>Home</a></li>
+				<li><a href="practice.html"><i class="fas fa-tasks" style="padding-right: 11%;"></i>Practice</a></li>
+				<li><a href="manage.html"><i class="fas fa-edit" style="padding-right: 10%;"></i>Words List</a></li>
+				<li><a href="settings.html" class="active"><i class="fas fa-cog" style="padding-right: 11%;"></i>Settings</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<main>
+	<div class="content">
+    <h1>Settings</h1>
+		<h2>Blacklisted Websites</h2>
+		<p>Add or remove hostnames from each line to limit where you see Study Words<br>
+		The box below will turn <span style="color:#e52242;">red</span>, and changes will not be saved if invalid urls are found.</p>
+		<textarea class="blacklist" name="name" rows="8" cols="70" spellcheck="false" disabled></textarea><br>
+		<button type="button" name="button" class="sbutton submit edit-blacklist">Edit</button>
+		<h2>Danger Zone</h2>
+		<button type="button" name="button" class="sbutton danger-zone">Empty Word List</button><br>
+		<button type="button" name="button" class="sbutton danger-zone">Reset Application</button>
+		<h2>Advanced</h2>
+		<i>Warning: Editing these values could signifcantly hinder functionality across the application.</i><br><br>
+		 Bing Spell Check API Key: <input class="input-box" type="text" name="fname" autocomplete="off" spellcheck="false"><br>
+		 <!--ResponsiveVoice API Key: <input class="input-box" type="text" name="lname" autocomplete="off" spellcheck="false"><br>-->
+		<button type="button" name="button" class="sbutton submit submit-form">Update</button>
+	</div>
+	</main>
+
+	<!-- Scripts needs to load after page as it edits DOM -->
+	<script type="text/javascript" src="js/settings.js"></script>
+</body>
+</html>
