@@ -1,7 +1,6 @@
 
-```
 > :warning: **This is an unmaintained proof-of-concept for a junior-level high school project.** I would strongly discourage attempts to use it in lieu of other spell-checking chrome extensions Grammarly or the Microsoft Editor.
-```
+
 # StudyWords
 
 StudyWords is the spell checker that helps you improve your spelling, not just correct it. Install the chrome extension to find and practice the words you struggle with most, and self-host the node api for maximum control.
